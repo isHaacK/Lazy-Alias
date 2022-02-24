@@ -22,3 +22,4 @@ alias smb='impacket-smbserver -smb2support "isHaacK" .'
 # nnc allows nc to connect using ip:port with a colon. Yes im that lazy.
 alias nnc='python3 -c "import sys,os; os.system('\''rlwrap nc '\''+'\'' '\''.join(sys.argv[1].split('\'':'\'')))"'
 alias fixshare='sudo vmhgfs-fuse .host:/ /mnt/hgfs/ -o allow_other -o uid=1000'
+alias whatip='curl ipinfo.io/ip' # shows public ip
